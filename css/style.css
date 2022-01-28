@@ -1,0 +1,88 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+.container {
+  max-width: 1200px;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+
+.header {
+  text-align: center;
+  padding: 20px;
+}
+
+.title {
+  font-size: 36px;
+  color: #505050;
+}
+
+.main {
+  margin-top: 70px;
+}
+.main__inner {
+  display: flex;
+  justify-content: space-around;
+}
+
+.setting__item {
+  padding-bottom: 20px;
+}
+.setting__btn {
+  color: #fff;
+  cursor: pointer;
+  background: #01d28e;
+  border-color: #01d28e;
+  padding: 12px 16px;
+  border-width: 1px;
+  border-radius: 5px;
+  font-size: 14px;
+  font-weight: 400;
+  box-shadow: 0px 10px 20px -6px;
+  position: relative;
+  transition: 0.3s;
+}
+.setting__btn:hover {
+  box-shadow: -7px -7px 20px 0px #fff9, -4px -4px 5px 0px #fff9, 7px 7px 20px 0px #0002, 4px 4px 5px 0px #0001;
+}
+
+.label-title {
+  color: #000;
+  text-transform: uppercase;
+  font-size: 12px;
+  font-weight: 600;
+  display: inline-block;
+  margin-bottom: 15px;
+}
+
+#num-letter {
+  width: 100%;
+  outline: none;
+  border: none;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+  padding: 0;
+}
+
+.password-area {
+  min-height: 100px;
+}
+
+#password {
+  outline: none;
+  appearance: none;
+  border: none;
+  display: block;
+  width: 100%;
+  padding: 15px 15px 85px;
+  font-size: 1.2rem;
+  text-align: center;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  border: 2px dashed #c0c7cf;
+  border-radius: 6px;
+  resize: none;
+  overflow: hidden;
+}
